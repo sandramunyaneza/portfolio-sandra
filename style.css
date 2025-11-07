@@ -26,11 +26,11 @@ header{
     z-index: 997;
     color:#3b4a56;
 }
-header.profil1 h1{
-    width: 161.55px;
-    height: 28.79px;
-    font: 24px boroto, sans-serif;
+.profil1 h1{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 24px;
     font-weight: 300;
+    
 }
 .navbar{
     margin-top: 10px;
@@ -41,7 +41,7 @@ nav ul{
 }
 nav ul li{
     padding: 15px 10px;
-    font: 16px "Raleway", sans-serif;
+    font: 16px 'Raleway', sans-serif;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -54,13 +54,14 @@ nav ul li{
     justify-content:center;
     align-items: center;
     font-size: 16px;
-    border: 2px #ffffff solid;
     width: 40px;
     height: 40px;
     border-radius: 9px;
     color: #FFFFFF;
     background-color: #3b4a56;
     margin: 3px;
+    transition: 0.3s;
+
 }
 .navbar nav ul li:hover{
     color:#22E7A1;
