@@ -1,0 +1,71 @@
+header{
+    background-color:#1c2737;
+    position: fixed;
+    width: 300px;
+    height: auto;
+    padding: 0 15px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    color: #ffffff;
+}
+.profil1{
+    text-align: center; 
+    width: 270px;
+    height: 298.79px; 
+}
+
+.profil1 img{
+    max-width: 220px;
+    border: 8px solid ; 
+    border-radius: 20px;
+    margin: 15px;
+    display: block;
+    z-index: 997;
+    color:#3b4a56;
+}
+header.profil1 h1{
+    width: 161.55px;
+    height: 28.79px;
+    font: 24px boroto, sans-serif;
+    font-weight: 300;
+}
+.navbar{
+    margin-top: 10px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    padding: 15px 10px;
+    font: 16px "Raleway", sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.social a{
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 16px;
+    border: 2px #ffffff solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    color: #FFFFFF;
+    background-color: #3b4a56;
+    margin: 3px;
+}
+.navbar nav ul li:hover{
+    color:#22E7A1;
+}
+.social a:hover{
+    background-color: #22E7A1;
+}
+
