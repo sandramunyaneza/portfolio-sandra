@@ -36,6 +36,10 @@ header{
 nav ul{
     list-style: none;
     padding: 0;
+    
+}
+nav a{
+    text-decoration: none;
 }
 nav ul li{
     padding: 15px 10px;
@@ -60,14 +64,15 @@ nav ul li{
     margin: 3px;
     transition: 0.3s;
 
-}
+} 
+
 .navbar nav ul li:hover{
     color:#22E7A1;
 }
 .social a:hover{
     background-color: #22E7A1;
 }
- .hero-section{
+.hero-section{
     display: flex;
     height: auto;
     width: 100%;
@@ -136,7 +141,6 @@ nav ul li{
     border-radius:8px;
     background-color: #293443;
     transition: all 0.3s ease;
-
 }
 
 body{
@@ -153,11 +157,13 @@ body{
 .container h1{
     font-family: 'Ubuntu',sans-serif;
     font-size: 56px;
+    line-height: 1.2;
 }
 .container p{
     font-family: 'Roboto',sans-serif;
     font-size: 18px;
     color: #b5c0c9;
+    line-height: 1.8;
 }
 .buttons button{
     width: 150px;
@@ -194,6 +200,11 @@ div button:first-child {
  }
  .project p i ,.cameras p i,.developpers p i{
     color: #22E7A1;
+ }
+ .uderline{
+    border-bottom:2px solid #22e7a1;
+    color: #22e7a1;
+
  }
 
 
