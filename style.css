@@ -193,7 +193,7 @@ div button:first-child {
     font: 14px 'Roboto', sans-serif;
 }
  .card img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
  }
  .project:hover,.cameras:hover,.developpers:hover{
     transform: scale(1.1);
