@@ -67,12 +67,12 @@ nav ul li{
 } 
 
 .navbar nav ul li:hover{
-    color:#5ca189;
+    color:#22E7A1;
 }
 .social a:hover{
     background-color: #22E7A1;
 }
-.hero-section{
+#hero-section{
     display: flex;
     height: auto;
     width: 100%;
