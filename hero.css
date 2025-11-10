@@ -1,0 +1,213 @@
+header{
+    background-color:#1c2737;
+    position: fixed;
+    width: 300px;
+    height: auto;
+    padding: 0 15px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    color: #ffffff;
+}
+.profil1{
+    text-align: center; 
+    width: 270px;
+    height: 298.79px; 
+}
+
+.profil1 img{
+    max-width: 220px;
+    border: 8px solid ; 
+    border-radius: 20px;
+    margin: 15px;
+    display: block;
+    color:#3b4a56;
+}
+.profil1 h1{
+    font-family:'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+.navbar{
+    margin-top: 10px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    
+}
+nav a{
+    text-decoration: none;
+}
+nav ul li{
+    padding: 15px 10px;
+    font: 16px 'Raleway', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+.social a{
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    color: #FFFFFF;
+    background-color: #3b4a56;
+    margin: 3px;
+    transition: 0.3s;
+
+} 
+
+.navbar nav ul li:hover{
+    color:#22E7A1;
+}
+.social a:hover{
+    background-color: #22E7A1;
+}
+#hero-section{
+    display: flex;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-left: 337px;
+    background-color:#25303f;
+    gap: 80px;
+    
+}
+.photos{
+    position: relative;
+    right: 570px;
+}
+.card{
+    margin:300px;
+}
+.card img{
+    max-width: 420px;
+    height: 420px;
+    position: absolute;
+    right: 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 60px color-mix(in srgb, #f9fafb 15%, transparent 85%);
+    z-index: 1;
+    transition: all 0.2s ease;
+}
+.design .project{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    margin: 80px;
+    left: 20px;
+    z-index: 2;
+    border-radius:8px;
+    background-color: #293443;
+    transition: all 0.3s ease;
+
+}
+.project p,.cameras p,.developpers p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #f9fafb;
+    font: 14px 'Roboto', sans-serif;
+    padding: 10px;
+}
+.design .cameras{
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    margin: 300px;
+    right: 50px;
+    z-index: 2;
+    border-radius:8px;
+    background-color: #293443;
+    transition: all 0.3s ease;
+}
+.design .developpers{
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    margin: 230px; 
+    left: 220px;
+    z-index: 2;
+    border-radius:8px;
+    background-color: #293443;
+    transition: all 0.3s ease;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.container{
+    margin: 190px;
+    position:relative;
+    right: 160px;
+}
+.container h1{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 56px;
+    line-height: 1.2;
+}
+.container p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: #b5c0c9;
+    line-height: 1.8;
+}
+.buttons button{
+    width: 150px;
+    height: 70px;
+    justify-content: space-between;
+    margin:20px;
+    border-radius: 20px;
+    background-color: #25303f;
+    border: 2px solid #3b4a56;
+    color: #f9fafb;
+    font: 16px 'Roboto',sans-serif;
+}
+div button:first-child {
+    background-color: #22E7A1;
+    border: 2px solid #22E7A1;
+    color:#0d0d0d;
+}
+.wrapper .projects h2{
+    font-size: 32px;
+    font-family:'Roboto',sans-serif;
+}
+.wrapper{
+    display: inline-flex;
+    gap: 20px;
+}
+.wrapper .projects p{
+    font: 14px 'Roboto', sans-serif;
+}
+ .card img:hover{
+    transform: scale(1.1);
+ }
+ .project:hover,.cameras:hover,.developpers:hover{
+    transform: scale(1.1);
+ }
+ .project p i ,.cameras p i,.developpers p i{
+    color: #22E7A1;
+ }
+ .uderline{
+    border-bottom:2px solid #22e7a1;
+    color: #22e7a1;
+
+ }
+
+
+
+
+
