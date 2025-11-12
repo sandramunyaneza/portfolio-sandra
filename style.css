@@ -72,12 +72,12 @@ nav ul li{
 .social a:hover{
     background-color: #22E7A1;
 }
-.hero-section{
-    display: flex;
+#hero-section{
+    display:flex;
     height: auto;
     width: 100%;
     position: relative;
-    margin-left: 337px;
+    margin-left: 333px;
     background-color:#25303f;
     gap: 80px;
     
@@ -170,20 +170,24 @@ body{
     height: 70px;
     justify-content: space-between;
     margin:20px;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #25303f;
     border: 2px solid #3b4a56;
     color: #f9fafb;
     font: 16px 'Roboto',sans-serif;
+    transition:all 0.3s ease;
+    cursor: pointer;
 }
 div button:first-child {
     background-color: #22E7A1;
     border: 2px solid #22E7A1;
     color:#0d0d0d;
 }
+div
 .wrapper .projects h2{
     font-size: 32px;
     font-family:'Roboto',sans-serif;
+    color:#22e7a1
 }
 .wrapper{
     display: inline-flex;
@@ -198,6 +202,11 @@ div button:first-child {
  .project:hover,.cameras:hover,.developpers:hover{
     transform: scale(1.1);
  }
+ button:hover{
+    transform: scale(1.1);
+    border-color: #22e7a1; 
+    color: #22e7a1;
+ }
  .project p i ,.cameras p i,.developpers p i{
     color: #22E7A1;
  }
@@ -206,6 +215,263 @@ div button:first-child {
     color: #22e7a1;
 
  }
+ #A-propos{
+    display:grid;
+    width: 100%;
+    height: auto;
+    margin-left: 333px;
+    background-color:#25303f;
+    gap: 80px;
+ }
+ .Introduction{
+    text-align:center;
+    padding: 0 100px;
+ }
+ .Introduction h1{
+    font: 56px 'Ubuntu',sans-serif;
+    color: #f9fafb;
+    margin-bottom: 10px;
+    position: relative;
+    right:25%
+ }
+ .Introduction p{
+    font: 20px 'Roboto',sans-serif;
+    color:#b5c0c9;
+    position: relative;
+    right:25%
+ }
+ .subvention{
+    display:flex;
+    gap: 100px;
+    position: relative;
+    bottom:50px;
+    padding-left:40px;
+ }
+ .part{
+   position: relative;
+   left:20px;
+ }
+ .part img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+ }
+ .parts i{
+   color: #22e7a1;
+ }
+ .parts h3{
+    font:16px 'roboto', sans-serif;
+    color: #f3f4f6;
+ }
+ .parts p{
+    font-size: 14.4px 'Roboto',sans-serif;
+    color: #f3f4f6;
+    position: relative;
+    bottom: 70px;
+ }
+ .statuts-dot{
+    font-size: 100px;
+    color: #22e7a1;
+ }
+ .paragraph{
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+ }
+ p.lead-text{
+    font:19px 'Roboto', sans-serif;
+    color:#b5c0c9;
+    position: relative;
+    bottom: 20px;
+    line-height: 1.7;
+ }
+ p.lead-texts{
+    font: 17.6px 'Roboto',sans-serif;
+    color: #b5c0c9;
+    position: relative;
+    bottom: 25px;
+    line-height: 1.8;
+ }
+ .product{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:0;
+    padding: 1rem;
+    max-width: 600px;
+    }
+ .division{
+      position: relative;
+      bottom: 30px;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;;
+    }
+ .division i{
+    width:30px;
+    height:30px;
+    border-radius: 8px;
+    background: color-mix(in srgb,#22e7a1, transparent 70%);
+    justify-content: center;
+    align-items: center;
+    color: #22e7a1;
+    font-size: 30px;
+    padding: 10px;
+ }
+ .division h3{
+    color: #f3f4f6;
+    font:17.6px 'Ubuntu',sans-serif;
+    margin: 0;
+ }
+ .division p{
+   width: 350px;
+   height: 100px;
+   color: #b5c0c9;
+   font: 15.2px 'Roboto',sans-serif;
+   margin:20px;
+   line-height: 1.6;
+   position: relative;
+   right: 150px;
+ }
+ .mark{
+    font:80px 'Roboto',sans-serif;
+    color: color-mix(in srgb,#22e7a1,transparent 80%);
+    position: relative;
+    right:790px;
+    top: 700px;
+ }
+ .parg{
+    width:450px;
+    height: 100px;
+    position:relative;
+    top:750px;
+    right:890px;
+ }
+ .parg p{
+    font:19.2px 'Roboto',sans-serif;
+    color: #f3f4f6;
+    font-style: italic;
+    display: inline;
+   margin: 20px;
+   
+ }
+ .Development{
+    width: 690px;
+    display:flex;
+    text-align: center;
+    margin:50px ;
+    padding: 50px;
+    position: relative;
+    left: 50px;
+    border-top: 1px solid color-mix(in srgb, #f3f4f6, transparent 90%);
+    padding-top: 10px;
+ }
+ .devel1 h3{
+    font: 32px 'Ubuntu',sans-serif;
+    color:#f9fafb;   
+ }
+ .devel1 p{
+    font:17.6px 'Roboto',sans-serif;
+    color: #b5c0c9;  
+ }
+ .devel1{
+    width: 370px;
+    height: 350px;
+    padding-right: 10px;
+    position: relative;
+    top: 40px;
+ }
+ .devel1 button{
+    min-width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #25303f;
+    border: 2px solid #3b4a56;
+    color: #f9fafb;
+    font: 16px 'Roboto',sans-serif;
+    transition:all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    top:140px;
+    margin: 5px;
+ }
+ .conclusion{
+    position: relative; 
+    bottom: 150px;
+    width: 73%;
+    background-color: #293341; 
+ }
+ .number{
+    display:inline-flex;
+    margin: 20px;
+    gap:40px;
+    text-align: center;  
+ }
+ .number .num1{
+    width: 250px;
+    height: auto; 
+ }
+ .number .num2{
+    width: 250px;
+    height: auto;
+ }
+ .number .num3{
+    width: 250px;
+    height: auto; 
+ }
+ .num1 h2,.num2 h2,.num3 h2{
+    font: 72px 'Ubuntu',sans-serif;
+    color: #f9fafb;
+    margin-bottom: 5px;
+ }
+ .num1 p,.num2 p, .num3 P{
+    font:16px'Roboto',sans-serif;
+    color:#f3f4f6;
+    padding:0;
+ }
+ .session{
+    display:inline-flex;
+    margin: 20px;
+    gap:10px;
+    text-align: center;
+    width: 250px;
+    height: 250px; 
+    padding: 60px 0;
+    border-top: 1px solid color-mix(in srgb, #f3f4f6, transparent 90%);
+ }
+ .session-icon i{
+   width: 40px;
+   height: 40px; 
+   border-radius:8px;
+   background: color-mix(in srgb,#22e7a1, transparent 70%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #22e7a1;
+   margin-top:5px;
+   font: 16px'Roboto',sans-serif;
+   gap: 0;
+ }
+.session-phrase h5{
+    font: 20px 'Ubuntu',sans-serif;
+    color: #f9fafb;
+    margin-bottom: 5px;
+    margin: 0;
+    gap: 0;
+   
+} 
+.session-phrase p{
+    font: 15px 'Roboto',sans-serif;
+    color:#b5c0c9;
+}
+
+ 
+ 
+ 
+
+ 
 
 
 
