@@ -27,16 +27,14 @@ header{
 .profil1 h1{
     font-family:'Ubuntu', sans-serif;
     font-size: 24px;
-    font-weight: 300;
-    
+    font-weight: 300;  
 }
 .navbar{
     margin-top: 10px;
 }
 nav ul{
     list-style: none;
-    padding: 0;
-    
+    padding: 0;  
 }
 nav a{
     text-decoration: none;
