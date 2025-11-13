@@ -65,7 +65,7 @@ nav ul li{
 } 
 
 .navbar nav ul li:hover{
-    color:#22E7A1;
+    color:#5ca189;
 }
 .social a:hover{
     background-color: #22E7A1;
@@ -195,7 +195,7 @@ div
     font: 14px 'Roboto', sans-serif;
 }
  .card img:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
  }
  .project:hover,.cameras:hover,.developpers:hover{
     transform: scale(1.1);
