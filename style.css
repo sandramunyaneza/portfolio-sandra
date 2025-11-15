@@ -72,10 +72,10 @@ nav ul li{
 .social a:hover{
     background-color: #22E7A1;
 }
-#hero-section{
+section{
     display:flex;
     height: auto;
-    width: 100%;
+    width: 924px;
     position: relative;
     margin-left: 333px;
     background-color:#25303f;
@@ -213,13 +213,10 @@ div
  .uderline{
     border-bottom:2px solid #22e7a1;
     color: #22e7a1;
-
  }
  #A-propos{
-    display:grid;
-    width: 100%;
-    height: auto;
-    margin-left: 333px;
+    display:flex;
+    flex-direction: column;
     background-color:#25303f;
     gap: 80px;
  }
@@ -232,13 +229,13 @@ div
     color: #f9fafb;
     margin-bottom: 10px;
     position: relative;
-    right:25%
+    right:5%;
  }
  .Introduction p{
     font: 20px 'Roboto',sans-serif;
     color:#b5c0c9;
     position: relative;
-    right:25%
+    right:5%
  }
  .subvention{
     display:flex;
@@ -335,27 +332,27 @@ div
    position: relative;
    right: 150px;
  }
+ .marks{
+   position: relative;
+   right:830px;
+   top: 700px;
+ }
  .mark{
-    font:80px 'Roboto',sans-serif;
-    color: color-mix(in srgb,#22e7a1,transparent 80%);
-    position: relative;
-    right:790px;
-    top: 700px;
+   font-size: 80px;
+   font-family: 'Ubuntu',sans-serif;
+   color: color-mix(in srgb,#22e7a1, transparent 80%);
+   font-style: italic;
  }
  .parg{
-    width:450px;
+    width: 450px;
     height: 100px;
-    position:relative;
-    top:750px;
-    right:890px;
  }
  .parg p{
-    font:19.2px 'Roboto',sans-serif;
-    color: #f3f4f6;
-    font-style: italic;
-    display: inline;
-   margin: 20px;
-   
+   font:19.2px 'Roboto',sans-serif;
+   color: #f3f4f6;
+   font-style: italic;
+   display: inline;
+   margin: 20px; 
  }
  .Development{
     width: 690px;
@@ -400,7 +397,7 @@ div
  .conclusion{
     position: relative; 
     bottom: 150px;
-    width: 73%;
+    width: 100%;
     background-color: #293341; 
  }
  .number{
@@ -460,12 +457,230 @@ div
     margin-bottom: 5px;
     margin: 0;
     gap: 0;
-   
 } 
 .session-phrase p{
     font: 15px 'Roboto',sans-serif;
     color:#b5c0c9;
 }
+#skills{
+   display: flex;
+   flex-direction: column;
+   gap:0;
+}
+.skills-intro{
+   width: 90%;
+   height: auto;
+   margin: 30px;
+}
+.skills-intro h2{
+   font: 32px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+   text-align: center; 
+}
+.skills-titre:before{
+   content: "";
+    position: absolute;
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: 
+   color-mix(in srgb, #f3f4f6, transparent 60%);
+    left: 0;
+    right: 0;
+    bottom: 1235px;
+    margin: auto;
+}
+.skills-titre::after{
+   content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background:#22E7A1;
+    left: 0;
+    right: 0;
+    bottom: 1235px;
+    margin: auto;
+}
+
+.skills-intro p{
+   font: 16px 'roboto',sans-serif;
+   color: #f3f4f6;
+   
+}
+.context-skills p{
+   font:22px 'Ubuntu',sans-serif;
+   color: #b5c0c9;
+   margin: 40px;
+   position: relative;
+   bottom: 20px;
+}
+.stills-part{
+   flex:2;
+}
+.champions{
+   flex:1;
+}
+.skills-pourcent{
+   display:flex;
+   justify-content: space-between;
+   align-items:flex-start;
+   gap: 10px; 
+}
+.skills-part1{
+   margin: 20px;
+}
+.skills-paragraph h3{
+   font:24PX 'Ubuntu',sans-serif;
+   color: #f3f4f6;
+   margin-bottom:5px;
+}
+.skills-paragraph p{
+   font: 16px 'Roboto',sans-serif;
+   color: #b5c0c9;
+   margin-top: 0;
+   padding: 10px;
+   border-bottom: 1px solid color-mix(in srgb, #f3f4f6, transparent 90%);
+}
+.skills-title{
+   font:18px 'roboto',sans-serif;
+   color:#f3f4f6;
+   margin-bottom: 4px;
+}
+.bar{
+  width: 100%;
+  height: 2px;
+  background: #243447;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 0;
+}
+.skills-pregress{
+  height: 100%;
+  background:#22E7A1; 
+  width: 0;
+}
+.percent {
+  margin-top: 5px;
+  color: #22E7A1;
+  font-weight: bold;
+  margin-left:95%;
+}
+.skills-list{
+   padding: 10px;
+}
+.trophy{
+   padding: 30px;
+   width: 180px;
+   height: auto;
+   margin:20px;
+   text-align: center;
+   border-radius: 8px;
+   background: color-mix(in srgb,#293443,#22e7a1 1%);
+}
+.trophy-icon span i{
+   margin-top: 20px;
+   color: #22E7A1;
+   font-size: 48px;
+}
+.trophy h4{
+   font: 20px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+   margin-bottom:5px;
+}
+.numbers{
+   margin: 25px;
+   margin-right:0;
+   display: inline-block;
+   margin-bottom: 5px;
+   margin-top: 0;
+}
+.huit{
+   font: 56px 'Ubuntu',sans-serif;
+   color: #22E7A1;
+}
+.an{
+   font: 16px 'Roboto',sans-serif;
+   color: #b5c0c9;
+   margin-top:35px;
+}
+.trophy p{
+   font: 16px 'Roboto',sans-serif;
+   color: #b5c0c9;
+   margin-top: 0;
+}
+.technologie{
+   margin: 10px;
+   padding: 10px;
+}
+.technologie h5{
+   font: 18px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+   margin: 20px;
+}
+.tech{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content:center;
+   gap:10px;
+   padding:10px;
+}
+.lang{
+   width: 100px;
+   height: 40px;
+   border-radius: 8px;
+   background: color-mix(in srgb,#293443,#22e7a1 1%);
+   padding: 15px;
+}
+.lang i{
+   color: #22E7A1;
+   font-size: 20px;
+}
+.lang p{
+   margin-left: 30px;
+   bottom: 35px;
+   position: relative;
+   font: 14px 'Roboto',sans-serif;
+   color: #f3f4f6;
+}
+.recent{
+   margin: 10px;
+   padding: 10px;
+}
+.recent h5{
+   font: 18px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+   margin: 20px;
+}
+.recents{
+   display:grid;
+   grid-template-columns: repeat(1,1fr);
+   justify-content: space-around;
+   align-items: center;
+}
+.ach{
+   display:flex;
+   gap:10px;
+   padding: 20px;
+}
+.ach .anne {
+   font: 14px 'Roboto',sans-serif;
+   color: #22E7A1;
+}
+.ach .answ{
+   font: 15px 'Roboto',sans-serif;
+   color: #f3f4f6;
+}
+.ach:not(:last-child){
+    border-bottom: 1px solid color-mix(in srgb, #f3f4f6, transparent 90%);
+}
+
+
+
+
+
+
+
 
  
  
