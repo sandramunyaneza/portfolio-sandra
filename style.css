@@ -27,18 +27,16 @@ header{
 .profil1 h1{
     font-family:'Ubuntu', sans-serif;
     font-size: 24px;
-    font-weight: 300;
-    
+    font-weight: 300;  
 }
 .navbar{
     margin-top: 10px;
 }
 nav ul{
     list-style: none;
-    padding: 0;
-    
+    padding: 0;  
 }
-nav a{
+nav a , .navbar-port ul a{
     text-decoration: none;
 }
 nav ul li{
@@ -483,8 +481,7 @@ div
     display: block;
     width: 160px;
     height: 1px;
-    background: 
-   color-mix(in srgb, #f3f4f6, transparent 60%);
+    background: color-mix(in srgb, #f3f4f6, transparent 60%);
     left: 0;
     right: 0;
     bottom: 1235px;
@@ -672,8 +669,94 @@ div
    color: #f3f4f6;
 }
 .ach:not(:last-child){
-    border-bottom: 1px solid color-mix(in srgb, #f3f4f6, transparent 90%);
+   border-bottom: 1px solid color-mix(in srgb, #f3f4f6, transparent 90%);
 }
+#portfolio{
+   display: flex;
+   flex-direction: column;
+}
+.intro-port{
+   text-align: center;
+   width: 90%;
+   margin: 20px;
+}
+.intro-port h2{
+   font: 32px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+}
+.intro-port p{
+   font:16px 'Roboto',sans-serif;
+   color: #f3f4f6;
+}
+.navbar-port{
+   width: 90%;
+   height: auto;
+   text-align: center;
+   position: relative;
+   bottom: 90px;
+}
+.navbar-port ul{
+   display:inline-flex;
+   padding: 50px;
+   margin: 20px;
+   list-style: none;
+   gap: 30px;
+}
+.navbar-port ul a li{
+   font:16px 'Ubuntu',sans-serif;
+   color: color-mix(in srgb,#f3f4f6, transparent 40%);
+   transition: alL 0.2s ease;
+}
+.image-port{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   bottom: 140px;
+}
+.images1{
+   width: 430px;
+   height: 470px;
+   margin-top: 20px;
+   margin: 15px;
+   transition: all 0.2s ease;
+}
+.images1 .images img{
+   width: 420px;
+   height: 300px;
+   margin-top:10px;
+   border-radius: 12px;
+}
+.contenu{
+   margin-top: 20px;
+}
+.contenu span{
+   font:14px 'Ubuntu',sans-serif;
+   color: #22e7a1;
+}
+.contenu .an{
+   padding-left: 290px;
+   font: 14px 'Roboto', sans-serif;
+   color:color-mix(in srgb,#f3f4f6, transparent 40%);
+}
+.contenu h2{
+   font:24px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+}
+.contenu p{
+   font: 15px 'Roboto',sans-serif;
+   color:color-mix(in srgb,#f3f4f6, transparent 40%);
+}
+.images img:hover{
+   transform: scale(1.05);       
+   filter: brightness(40%);      
+}
+.navbar-port ul a li:hover{
+   color: #F9FAFB;
+   text-decoration: underline #22E7A1;
+}
+
 
 
 
