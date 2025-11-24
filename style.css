@@ -1003,6 +1003,194 @@ div
    margin-bottom: 30px;
    border-left: 2px solid #22E7A1;
 }
+#contact{
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+.contact-titre{
+   text-align: center;
+   width: 90%;
+}
+.contact-titre h2{
+   font: 32px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+}
+.contact-titre p{
+   font:16px 'Roboto', sans-serif;
+   color:#F3F4F6
+}
+.all-contact{
+   display: flex;
+   padding: 10px;
+   gap: 40px;
+}
+.message{
+   flex: 1;
+}
+.send-msg{
+   flex: 2;
+}
+.msg-contact{
+   display: flex;
+   flex-direction: column;
+}
+.icon-msg{
+   width: 40px;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   border-radius: 50%;
+   background: color-mix(in srgb, #22e7a1, transparent 80%);
+}
+.icon-msg i{
+   color: #22e7a1;
+   font-size: 24px;
+}
+.connect-msg h4{
+   font: 24px 'Ubuntu', sans-serif;
+   color: #F9FAFB;
+}
+.connect-msg{
+   font:16px 'Roboto',sans-serif;
+   color: color-mix(in srgb,#f3f4f6, transparent 25%);
+}
+.num-contact{
+   display: flex;
+   flex-direction: column;
+   gap:0;
+}
+.number{
+   display: flex;
+   padding:5px;
+   width: 200px;
+   height: 50px;
+}
+.icon-numb i{
+   font-size: 18px;
+   color: #22e7a1;
+}
+.icon-part{
+   position: relative;
+   bottom: 20px;
+   right: 20px;
+}
+.icon-part h4{
+   font: 13px 'Roboto',sans-serif;
+   color: color-mix(in srgb,#f3f4f6, transparent 25%);
+   margin-right: 70px;
+}
+.icon-part p{
+   font: 16px 'Roboto' sans-serif;
+   color: #F3F4F6;
+}
+.send-msg h3{
+   font: 32px 'Ubuntu',sans-serif;
+   color: #F9FAFB;
+}
+.formulaire{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.formulaire .person{
+   display: flex;
+   gap:100px
+}
+.person input{
+   width: 220px;
+   height: 40px;
+   border-radius: 8px;
+   background: #293443;
+   border: 1px solid #b5c0c9;
+   margin-top: 10px;
+   transition: border 0.3s ease;
+}
+label{
+   font:14px 'Roboto',sans-serif;
+   color: #f9fafb;
+}
+.sujet input{
+   width: 540px;
+   height: 40px;
+   border-radius: 8px;
+   background: #293443;
+   border: 1px solid #b5c0c9;
+   margin-top: 10px;
+}
+.comment textarea{
+   width: 540px;
+   height:150px ;
+   border-radius: 8px;
+   background: #293443;
+   border: 1px solid #b5c0c9;
+   margin-top: 10px;
+}
+.send button {
+   width: 200px;
+   height: 60px;
+   border-radius: 8px;
+   font: 15px 'Roboto',sans-serif;
+   display: flex;
+   gap:10px;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.3s ease;
+   cursor: pointer;
+   transition: box-shadow 0.3s ease;
+}
+.send button:hover{
+  box-shadow:0 20px 60px color-mix(in srgb,#22e7a1 15%, transparent 85%);
+}
+input:focus,textarea:focus{
+   border: 1px solid #22e7a1;
+   outline: none;
+}
+footer{
+   display:flex;
+   height: auto;
+   width: 924px;
+   position: relative;
+   margin-left: 333px;
+   background-color:#293341;
+}
+.containt{
+   text-align: center;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   gap:30px
+}
+.containt h3{
+   font:36px 'Ubuntu',sans-serif;
+   color: #f9fafb;
+   margin-bottom: 10px;
+}
+.fuga{
+   font:14px 'Roboto',sans-serif;
+   color:#f3f4f6;
+   margin-top: 0;
+   margin-left: 30px;
+}
+.socials i{
+   width: 40px;
+   height: 40px;
+   background: #22e7a1;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   font-size: 16px;
+}
+.copyrigth{
+   width:850px;
+   border-top: 1px solid color-mix(in srgb, #f3f4f6, transparent 90%);
+}
+.copyrigth p{
+   font:14px 'Roboto',sans-serif;
+   color:#f3f4f6;
+}
 
 
 
