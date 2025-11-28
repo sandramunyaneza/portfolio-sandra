@@ -1046,7 +1046,7 @@ div
 .content-service{
    margin: 25px;
 }
-.content-service span, .content-service i{
+.content-service .span, .content-service i{
    font: 14px 'Roboto',sans-serif;
    color: #22E7A1;
 }
@@ -1058,7 +1058,7 @@ div
    color: #22E7A1;
    cursor:pointer;
 }
-.content-service span:hover, .content-service i:hover{
+.content-service .span:hover, .content-service i:hover{
    color: #22E7A1;
    cursor: pointer;
 }
