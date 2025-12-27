@@ -7,16 +7,17 @@
 
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <aside>
+    <header id ="menu">
+        <div class="all-nav">
             <div class="profil1">
                 <img src="./image/profil1.webp" alt="profil1">
                 <h1>Mark Andersen</h1>
@@ -47,27 +48,29 @@
                         </a>
                     </ul>
                 </nav>
-                <div>
-                    <div class="social">
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-instagram"></i></a>
-                        <a href="#"><i class="bi bi-skype"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </div>
-        </aside>
+            <div>
+            <div class="social">
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-skype"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
     </header>
     <main>
-        <section id="hero-section">
+       <section id="hero-section">
+        <button id="menu-btn">☰</button>
+        <div class="all_container">
             <div class="container">
-                <h1><span style="color:#f3f4f6">Creative&nbsp;Designer</span><br>
-                    <span style="color: #f3f4f6;">& </span><span style="color:#22e7a1">Visual</span> <br>
-                    <span class="uderline">Storyteller</span>
+                <h1>Creative Designer &
+                     <span style="color: #22e7a1;">Visual <span class="uderline">Storyteller</span> 
+                     </span>
                 </h1>
                 <p>
-                    crafting meaningful digital experiences through <br>
-                    thoughtful design and innovative solutions. <br>
-                    I blend creativity with strategy to bring brands <br>
+                    crafting meaningful digital experiences through 
+                    thoughtful design and innovative solutions. 
+                    I blend creativity with strategy to bring brands 
                     to life and connect with audiences on a deeper level.
                 </p>
                 <div class="buttons">
@@ -94,21 +97,14 @@
                     <img src="image/profile-square-13.webp" alt="photos">
                 </div>
                 <div class="design">
-                    <div class="project">
-                        <p> <i class="bi bi-palette"></i>UI/UX&nbsp;Design</p>
-                    </div>
-
-                    <div class="cameras">
-                        <p><i class="bi bi-camera"></i>Photography</p>
-                    </div>
-
-                    <div class="developpers">
-                        <p><i class="bi bi-code-square"></i>Web&nbsp;Development</p>
-                    </div>
-
+                    <p class="project"> <i class="bi bi-palette"></i>UI/UX&nbsp;Design</p>
+                    <p class="cameras"><i class="bi bi-camera"></i>Photography</p>
+                    <p class="developpers"><i class="bi bi-code-square"></i>Web&nbsp;Development</p>
                 </div>
             </div>
+        </div>
         </section>
+
         <section id="A-propos">
             <div class="Introduction">
                 <h1> Hi,I'm Mark Andersen</h1>
@@ -121,51 +117,59 @@
                         <h3><i class="bi bi-geo-alt"></i> San Francisco, CA</h3>
                         <p><span class="statuts-dot">.</span> Available for projects</p>
                     </div>
-
                 </div>
-
-                <div class="paragraph">
-                    <p class="lead-text">I craft digital experiences that bridge the gap <br>
-                        between user needs and business goals. with 7 <br>
-                        years of experience in product design,I've helped <br>
-                        startups and fortune 500 companies create <br>
-                        meaningful connections with their users.
-                    </p>
-                    <p class="lead-texts">My design philosophy centers around empathy,iteration <br>
-                        and impact.Ibelieve great design isn't just about aesthetics -it's <br>
-                        about solving real problems and creating value for both <br>
+                <div class="all-subvention">
+                    <div class="paragraph">
+                        <p class="lead-text">I craft digital experiences that bridge the gap
+                        between user needs and business goals. with 7 years of experience
+                         in product design,I've helped startups and fortune 500 companies 
+                         create meaningful connections with their users.
+                        </p>
+                        <p class="lead-texts">My design philosophy centers around empathy,iteration
+                        and impact.Ibelieve great design isn't just about aesthetics -it's
+                        about solving real problems and creating value for both 
                         users and businesses.
-                    </p>
+                        </p>
+                    </div>
                     <div class="product">
                         <div class="division">
-                            <i class="bi bi-lightbulb"></i>
-                            <h3>Product&nbsp;Strategy</h3>
-                            <p>User research,Journey mapping,and strategic design thinking.</p>
+                            <div class="part1-division">
+                                <i class="bi bi-lightbulb"></i>
+                            </div>
+                            <div class="part2-division">
+                                <h3>Product Strategy</h3>
+                                <p>User research,Journey mapping,and strategic design thinking.</p>
+                            </div>
                         </div>
                         <div class="division">
-                            <i class="bi bi-phone"></i>
-                            <h3>Mobile&nbsp;Web&nbsp;design</h3>
-                            <p>Responsive interfaces and seamless user experiences</p>
+                            <div class="part1-division">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <div class="part2-division">
+                                <h3>Mobile&nbsp;Web&nbsp;design</h3>
+                                <p>Responsive interfaces and seamless user experiences</p>
+                            </div>
                         </div>
                         <div class="division">
-                            <i class="bi bi-graph-up"></i>
-                            <h3>Design&nbsp;Systems</h3>
-                            <p>Scalade component librairies and consistency</p>
+                            <div class="part1-division">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <div class="part2-division">
+                                <h3>Design&nbsp;Systems</h3>
+                                <p>Scalade component librairies and consistency</p>
+                            </div>
                         </div>
                     </div>
-
-                </div>
-                <div class="marks">
-                    <div class="mark">"</div>
-                    <div class="parg">
-                        <p>Good design is not about perfection it's about <br>
-                            understanding,empathy,and continous learning from <br>
-                            the people who use what we create.
+                    <div class="marks">
+                        <p class="quote">"</p>
+                        <p class="parg">
+                        Good design is not about perfection it's about 
+                        understanding,empathy,and continous learning from 
+                        the people who use what we create.
                         </p>
                     </div>
                 </div>
             </div>
-
             <div class="Development">
                 <div class="devel1">
                     <h3>Let's create something amazing together </h3>
@@ -176,8 +180,8 @@
                     </p>
                 </div>
                 <div class="devel1">
-                    <button>View case studies</button>
-                    <button>Start a project</button>
+                    <button class="view">View case studies</button>
+                    <button class="view">Start a project</button>
                 </div>
             </div>
             <div class="conclusion">
@@ -186,11 +190,11 @@
                         <h2>127</h2>
                         <p>Voluptas nulla pariatur</p>
                     </div>
-                    <div class="num2">
+                    <div class="num1">
                         <h2>89K</h2>
                         <P>Nostrum exercitationem</P>
                     </div>
-                    <div class="num3">
+                    <div class="num1">
                         <h2>234+</h2>
                         <p>Temporibus autem</p>
                     </div>
@@ -201,7 +205,7 @@
                             <i class="bi bi-trophy"></i>
                         </div>
                         <div class="session-phrase">
-                            <h5>Excellence <br>Award</h5>
+                            <h4>Excellence <br>Award</h4>
                             <p>ut enim ad minima
                                 veniamquis
                             </p>
@@ -212,7 +216,7 @@
                             <i class="bi bi-star"></i>
                         </div>
                         <div class="session-phrase">
-                            <h5>Recognition</h5>
+                            <h4>Recognition</h4>
                             <p> se do eiusmod tempor incididunt
                             </p>
                         </div>
@@ -222,7 +226,7 @@
                             <i class="bi bi-gem"></i>
                         </div>
                         <div class="session-phrase">
-                            <h5>Innovation</h5>
+                            <h4>Innovation</h4>
                             <p>lorem ipsum dolor sit
                                 amet consectur
                             </p>
@@ -232,20 +236,16 @@
             </div>
         </section>
         <section id="skills">
-            <div class="skills-intro">
+            <div class="for-titles">
                 <h2 class="skills-titre"> Skills</h2>
-
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit.
-                    Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
-                    officiis commodi quidem hic quas.
+                <p>
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. 
+                    Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
                 </p>
             </div>
-            <div class="context-skills">
-                <p>Mastery achieved through continuous exploration and dedicated refinement
+            <p class="context-skills">Mastery achieved through continuous exploration and dedicated refinement
                     of craft
-                </p>
-            </div>
+            </p>
             <div class="skills-pourcent">
                 <div class="stills-part">
                     <div class="skills-part1">
@@ -254,22 +254,28 @@
                             <p>Core development and technical skills</p>
                         </div>
                         <div class="skills-list">
-                            <span class="skills-title">Full-Stack Development</span>
-                            <span class="percent">92%</span>
+                            <div class="all-fusion">
+                                <p class="skills-title">Full-Stack Development</p>
+                                <p class="percent">92%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 92%;"></div>
                             </div>
                         </div>
                         <div class="skills-list">
-                            <span class="skills-title">Cloud Architecture</span>
-                            <span class="percent">88%</span>
+                            <div class="all-fusion">
+                                <p class="skills-title">Cloud Architecture</p>
+                                <p class="percent">88%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 88%;"></div>
                             </div>
                         </div>
                         <div class="skills-list">
-                            <span class="skills-title">Database Design</span>
-                            <span class="percent">85%</span>
+                            <div class="all-fusion">
+                                <p class="skills-title">Database Design</p>
+                                <p class="percent">85%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 85%;"></div>
                             </div>
@@ -281,22 +287,28 @@
                             <p>Core development and technical skills</p>
                         </div>
                         <div class="skills-list">
-                            <div class="skills-title">UI/UX Design</div>
-                            <div class="percent">94%</div>
+                            <div class="all-fusion">
+                                <p class="skills-title">UI/UX Design</p>
+                                <p class="percent">94%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 94%;"></div>
                             </div>
                         </div>
                         <div class="skills-list">
-                            <div class="skills-title">Brand Identity</div>
-                            <div class="percent">86%</div>
+                            <div class="all-fusion">
+                                <p class="skills-title">Brand Identity</p>
+                                <p class="percent">86%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 86%;"></div>
                             </div>
                         </div>
                         <div class="skills-list">
-                            <div class="skills-title">Motion Graphics</div>
-                            <div class="percent">78%</div>
+                            <div class="all-fusion">
+                                <p class="skills-title">Motion Graphics</p>
+                                <p class="percent">78%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 78%;"></div>
                             </div>
@@ -308,22 +320,28 @@
                             <p>Management and business acumen</p>
                         </div>
                         <div class="skills-list">
-                            <div class="skills-title">Project Management</div>
-                            <div class="percent">90%</div>
+                            <div class="all-fusion">
+                                <p class="skills-title">Project Management</p>
+                                <p class="percent">90%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 90%;"></div>
                             </div>
                         </div>
                         <div class="skills-list">
-                            <div class="skills-title">Team Coordination</div>
-                            <div class="percent">87%</div>
+                            <div class="all-fusion">
+                                <p class="skills-title">Team Coordination</p>
+                                <p class="percent">87%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 87%;"></div>
                             </div>
                         </div>
                         <div class="skills-list">
-                            <div class="skills-title">Strategic Planning</div>
-                            <div class="percent">83%</div>
+                            <div class="all-fusion">
+                                <p class="skills-title">Strategic Planning</p>
+                                <p class="percent">83%</p>
+                            </div>
                             <div class="bar">
                                 <div class="skills-pregress" style="width: 83%;"></div>
                             </div>
@@ -333,7 +351,7 @@
                 <div class="champions">
                     <div class="trophy">
                         <div class="trophy-icon">
-                            <span><i class="bi bi-trophy"></i></span>
+                            <i class="bi bi-trophy"></i>
                         </div>
                         <h4>Years of Experience</h4>
                         <div class="numbers">
@@ -349,7 +367,6 @@
                                 <i class="bi bi-filetype-js"></i>
                                 <p>JavaScript</p>
                             </div>
-
                             <div class="lang">
                                 <i class="bi bi-palette"></i>
                                 <p>React</p>
@@ -372,7 +389,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="recent">
                         <h5>Recent Achievements</h5>
                         <div class="recents">
@@ -391,15 +407,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
+           </div>
         </section>
-        <section id="Resume">
-            <div class="resume-intro">
-                <h2 class="skill-titre">Resume</h2>
+
+         <section id="Resume">
+            <div class="for-title">
+                <h2 class="skills-titre">Resume</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. <br>
+                    consectetur velit. 
                     Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
-                    officiis commodi quidem hic <br>
+                    officiis commodi quidem hic 
                     quas.
                 </p>
             </div>
@@ -417,26 +434,22 @@
                     <div class="resume-experience">
                         <div class="experience-content timeline">
                             <div class="all">
-                                <div class="experience-title">
-                                    <span>2023 - Present</span>
-                                </div>
+                                <span class="experience-title">2023 - Present</span>
                                 <h3>Creative Director</h3>
                                 <h4>Innovation Studios Ltd</h4>
                                 <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
                                     odit aut fugit sed quia consequuntur magni dolores eos qui ratione.
                                 </p>
                                 <div class="key">
-                                    <span class="keys">Team Leadership</span>
-                                    <span class="keys">Strategic Planning</span>
-                                    <span class="keys">Creative Vision</span>
+                                    <p class="keys">Team Leadership</p>
+                                    <p class="keys">Strategic Planning</p>
+                                    <p class="keys">Creative Vision</p>
                                 </div>
                             </div>
                         </div>
                         <div class="experience-content timeline">
                             <div class="all">
-                                <div class="experience-title">
-                                    <span>2020 - 2023</span>
-                                </div>
+                                <span class="experience-title">2020 - 2023</span>
                                 <h3>Senior Product Designer</h3>
                                 <h4>Digital Innovations Corp</h4>
                                 <p>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis
@@ -446,9 +459,7 @@
                         </div>
                         <div class="experience-content timeline">
                             <div class="all">
-                                <div class="experience-title">
-                                    <span>2017 - 2020</span>
-                                </div>
+                                <span class="experience-title">2017 - 2020</span>
                                 <h3>UX/UI Designer</h3>
                                 <h4>Creative Solutions Agency</h4>
                                 <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
@@ -531,7 +542,7 @@
 
         <section id="portfolio">
             <div class="intro-port">
-                <h2>Portfolio</h2>
+                <h2 class="skills-titre">Portfolio</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
                     consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
                     fugiat sit in iste officiis commodi quidem hic quas. </p>
@@ -552,6 +563,10 @@
             <div class="image-port">
                 <div class="images1">
                     <div class="images"> <img src="image/portfolio-3.webp" alt="photos"> </div>
+                    <div class="inter">
+                        <i class="bi bi-eye"></i>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
                     <div class="contenu"> <span>Brand Identity</span> <span class="an">2024</span>
                         <h2>Elemental Branding</h2>
                         <p>Comprehensive brand identity design focusing on natural elements and sustainable business
@@ -560,6 +575,10 @@
                 </div>
                 <div class="images1">
                     <div class="images"> <img src="image/portfolio-7.webp" alt="photos"> </div>
+                    <div class="inter">
+                        <i class="bi bi-eye"></i>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
                     <div class="contenu"> <span>Web Application</span> <span class="an">2024</span>
                         <h2>Digital Workspace</h2>
                         <p>Modern web application designed for remote collaboration with intuitive user experience and
@@ -568,6 +587,10 @@
                 </div>
                 <div class="images1">
                     <div class="images"> <img src="image/portfolio-portrait-3.webp" alt="photos"> </div>
+                    <div class="inter">
+                        <i class="bi bi-eye"></i>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
                     <div class="contenu"> <span>Photography</span> <span class="an">2023</span>
                         <h2>Urban Narratives</h2>
                         <p>Street photography series capturing the essence of metropolitan life and human connections.
@@ -576,6 +599,10 @@
                 </div>
                 <div class="images1">
                     <div class="images"> <img src="image/portfolio-9.webp" alt="photos"> </div>
+                    <div class="inter">
+                        <i class="bi bi-eye"></i>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
                     <div class="contenu"> <span>Editorial Design</span> <span class="an">2024</span>
                         <h2>Annual Report Design</h2>
                         <p> Sophisticated annual report combining data visualization with compelling storytelling and
@@ -584,6 +611,10 @@
                 </div>
                 <div class="images1">
                     <div class="images"> <img src="image/portfolio-12.webp" alt="photos"> </div>
+                    <div class="inter">
+                    <i class="bi bi-eye"></i>
+                    <i class="bi bi-arrow-up-right"></i>
+                    </div>
                     <div class="contenu"> <span>E-commerce</span> <span class="an">2024</span>
                         <h2>Sustainable Commerce</h2>
                         <p> Eco-conscious e-commerce platform design promoting sustainable products with seamless
@@ -592,6 +623,10 @@
                 </div>
                 <div class="images1">
                     <div class="images"> <img src="image/portfolio-11.webp" alt="photos"> </div>
+                    <div class="inter">
+                        <i class="bi bi-eye"></i>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
                     <div class="contenu"> <span>Package Design</span> <span class="an">2023</span>
                         <h2>Artisan Collection</h2>
                         <p> Luxury packaging design series celebrating traditional craftsmanship with contemporary
@@ -600,6 +635,104 @@
                 </div>
             </div>
         </section>
+
+        <section id="Services">
+            <div class="titre">
+                <h2 >Services</h2>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+            <div class="service-content">
+                <div class="service-section">
+                    <p class="icone"><i class="bi bi-palette"></i></p>
+                    <div class="content-service">
+                        <h3>Brand Identity Design</h3>
+                        <p>
+                            Crafting distinctive visual identities that capture
+                            your brand's essence and connect with your target
+                            audience through thoughtful design systems.
+                        </p>
+                        <p class="span">Learn More <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="service-section">
+                    <p class="icone"><i class="bi bi-code-slash"></i></p>
+                    <div class="content-service">
+                        <h3>Web Development</h3>
+                        <p>
+                            Building modern, responsive websites and
+                            applications with clean code, optimal
+                            performance, and seamless user experiences
+                            across all devices.
+                        </p>
+                        <p class="span">Learn More <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="service-section">
+                    <p class="icone"><i class="bi bi-phone"></i></p>
+                    <div class="content-service">
+                        <h3>UI/UX Design</h3>
+                        <p>
+                            Designing intuitive interfaces and user
+                            experiences that balance aesthetics with
+                            functionality, ensuring every interaction feels
+                            natural and purposeful.
+                        </p>
+                        <p class="span">Learn More <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+                <div class="service-section">
+                    <p class="icone"><i class="bi bi-megaphone"></i><p>
+                    <div class="content-service">
+                        <h3>Digital Strategy</h3>
+                        <p>
+                            Developing comprehensive digital strategies that
+                            align with your business goals and maximize your
+                            online presence through data-driven insights.
+                        </p>
+                        <p class="span">Learn More <i class="bi bi-arrow-right"></i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Testimonials">
+            <div class="test-titre">
+                <h2 class="test-title">Testimonials</h2>
+                <p>
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
+                    Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic
+                    quas.
+                </p>
+            </div>
+            <div class="test-content">
+                <div class="test-head">
+                    <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="quote">
+                        <i class="bi bi-quote"></i>
+                    </div>
+                </div>
+                <p class="test-part">
+                    "Strategic collaboration and innovative thinking have enabled remarkable digital transformation,
+                    leading to increased efficiency and measurable business growth results."   
+                </p>
+                <div class="test-image">
+                    <div class="test-profil">
+                        <img src="image/person-f-11.webp" alt="profil">
+                    </div>
+                    <div class="test-about">
+                        <h4>Jennifer Wilson</h4>
+                        <p class="poste">Digital strategy Lead</p>
+                        <p class="authors">FutureScope Inc</p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
         <section id="contact">
             <div class="contact-titre">
                 <h2>Contact</h2>
@@ -623,7 +756,7 @@
                         </div>
                     </div>
                     <div class="num-contact">
-                        <div class="number">
+                        <div class="nombre">
                             <div class="icon-numb">
                                 <i class="bi bi-envelope-open"></i>
                             </div>
@@ -632,7 +765,7 @@
                                 <p>contact@example.com</p>
                             </div>
                         </div>
-                        <div class="number">
+                        <div class="nombre">
                             <div class="icon-numb">
                                 <i class="bi bi-telephone-outbound"></i>
                             </div>
@@ -641,7 +774,7 @@
                                 <p>+1 (555) 432-8976</p>
                             </div>
                         </div>
-                        <div class="number">
+                        <div class="nombre">
                             <div class="icon-numb">
                                 <i class="bi bi-geo-alt-fill"></i>
                             </div>
@@ -705,7 +838,9 @@
                 <p>Designed by <span style="color: #22e7a1;">BootstrapMade</span></p>
             </div>
         </div>
+        
     </footer>
+    <script src="port.js"></script>
 </body>
 
 </html>
