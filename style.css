@@ -787,8 +787,8 @@ line i{
 .timeline::before{
   content: "";
   position: absolute;
-  left: 8px;              /* centre du point */
-  top: 20px;              /* démarre après le point */
+  left: 8px;              
+  top: 20px;              
   width: 1px;
   height: 100%;
   background-color: rgba(34, 231, 161, 0.3);
