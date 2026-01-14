@@ -787,7 +787,7 @@ line i{
 .timeline::before{
   content: "";
   position: absolute;
-  left: 8px;              
+  left: 8px;              /* centre du point */
   top: 20px;              
   width: 1px;
   height: 100%;
